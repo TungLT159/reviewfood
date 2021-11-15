@@ -1,0 +1,13 @@
+1. git clone https://github.com/phuchealer91/reviewfood.git (trong htdocs)
+2. composer install
+3. cp .env.example .env 
+4. Vào file .env đổi tên database, user, password.
+5. php artisan key:generate
+5. php artisan migrate (file reviewfood.sql trong folder)
+6. php artisan serve
+
+
+
+-
+
+
